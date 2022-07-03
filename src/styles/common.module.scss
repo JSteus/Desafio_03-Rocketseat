@@ -1,1 +1,43 @@
-// TODO
+.heading {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 34px;
+  text-align: justify;
+  letter-spacing: -0.5px;
+  color: #F8F8F8;
+}
+
+.paragraph {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+  text-align: justify;
+  color: #D7D7D7;
+}
+
+.info {
+  display: flex;
+  flex-direction: row;
+
+  span {
+    display: flex;
+    flex-direction: row;
+    padding-right: 30px;
+
+    svg {
+      color: #BBBBBB;
+      font-size: 15px;
+      margin-right: 11px;
+    }
+
+    p {
+      font-style: normal;
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 17px;
+      color: #BBBBBB;
+    }
+  }
+}

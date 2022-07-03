@@ -23,7 +23,7 @@
     "**/*.ts",
     "**/*.tsx",
     "**/*.spec.tsx"
-  ],
+, "src/services/prismic.js"  ],
   "exclude": [
     "node_modules"
   ]
